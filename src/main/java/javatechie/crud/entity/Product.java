@@ -11,9 +11,8 @@ import javax.persistence.Table;
 @ToString
 @RequiredArgsConstructor
 @AllArgsConstructor
-@NoArgsConstructor
 @Entity
-@Table
+@Table(name = "products")
 public class Product {
 
     @Id
