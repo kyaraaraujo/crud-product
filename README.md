@@ -46,7 +46,7 @@
 
 
 [Objetivo](#objetivo) &nbsp;&nbsp; | &nbsp;&nbsp;
-[Aprendizados / Utilizados](#aprendizados/utilizados) &nbsp;&nbsp; | &nbsp;&nbsp;
+[Aprendizados / Utilizados](#aprendizados-utilizados) &nbsp;&nbsp; | &nbsp;&nbsp;
 [Como usar](#como-usar) &nbsp;&nbsp; | &nbsp;&nbsp;
 [Informações Extras](#informações-extras) &nbsp;&nbsp; | &nbsp;&nbsp;
 [Referências](#referências) &nbsp;&nbsp;
@@ -57,7 +57,7 @@
 O objetivo deste projeto é praticar API e utilizar como consulta de estudo.
 Usado ações primitivas no banco de dados: CREATE, READ, UPDATE, DELETE para manipular os produtos.
 
-## Aprendizados/Utilizados
+## Aprendizados-Utilizados
 - Spring boot
 - Banco de dados relacional: MySQL
 - Annotations Lombok e JPA
