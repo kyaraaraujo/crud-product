@@ -72,7 +72,7 @@ Após baixar o projeto, substituir as variáveis de ambiente do arquivo `applica
   ```properties
   spring.datasource.username = usuárioDoSeuBancoDeDados
   spring.datasource.password = senhaDoSeuBancoDeDados
-- ```
+```
 
 ## Informações Extras
 ### Criar variáveis de ambiente no IntelliJ
@@ -95,7 +95,7 @@ o arquivo `application.properties` estaria escrito:
   ```properties
   spring.datasource.username = ${YOUR_VARIABLE_USERNAME}
   spring.datasource.password = ${YOUR_VARIABLE_PASSWORD}
-- ```
+```
 
 
 
