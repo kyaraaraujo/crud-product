@@ -46,7 +46,7 @@
 
 
 [Objetivo](#objetivo) &nbsp;&nbsp; | &nbsp;&nbsp;
-[Aprendizados / Utilizados](#aprendizados/utilizados) &nbsp;&nbsp; | &nbsp;&nbsp;
+[Aprendizados / Utilizados](#aprendizados-utilizados) &nbsp;&nbsp; | &nbsp;&nbsp;
 [Como usar](#como-usar) &nbsp;&nbsp; | &nbsp;&nbsp;
 [Informações Extras](#informações-extras) &nbsp;&nbsp; | &nbsp;&nbsp;
 [Referências](#referências) &nbsp;&nbsp;
@@ -57,7 +57,7 @@
 O objetivo deste projeto é praticar API e utilizar como consulta de estudo.
 Usado ações primitivas no banco de dados: CREATE, READ, UPDATE, DELETE para manipular os produtos.
 
-## Aprendizados/Utilizados
+## Aprendizados-Utilizados
 - Spring boot
 - Banco de dados relacional: MySQL
 - Annotations Lombok e JPA
@@ -72,7 +72,7 @@ Após baixar o projeto, substituir as variáveis de ambiente do arquivo `applica
   ```properties
   spring.datasource.username = usuárioDoSeuBancoDeDados
   spring.datasource.password = senhaDoSeuBancoDeDados
-- ```
+```
 
 ## Informações Extras
 ### Criar variáveis de ambiente no IntelliJ
@@ -84,18 +84,18 @@ Serve para que não se envie dados sensíveis ao repositório, mantendo a inform
 
 
 2. Em `Environment variables` informar variáveis e valor separadas por ; ou clicar no ícone para informar como uma tabela.
-   1. Caso deseje informar na linha, após isso basta clicar em `Apply` e `OK`.
-   ![](https://raw.githubusercontent.com/kyaraaraujo/kyaraaraujo/images/variaveis-ambiente/passo2.png)
-   
-   2. Caso clique no ícone no final da linha à direita, abrirá uma outra janela, após inserir ao lado esquerdo o nome da variável e ao lado direito o valor, basta clicar em `OK`, `Apply` e `OK`.
-   ![](https://raw.githubusercontent.com/kyaraaraujo/kyaraaraujo/images/variaveis-ambiente/passo3.png)
+    1. Caso deseje informar na linha, após isso basta clicar em `Apply` e `OK`.
+       ![](https://raw.githubusercontent.com/kyaraaraujo/kyaraaraujo/images/variaveis-ambiente/passo2.png)
 
-As variáveis precisam ter o mesmo nome que foi informado no seu arquivo de configuração com o banco de dados, nesse caso 
+    2. Caso clique no ícone no final da linha à direita, abrirá uma outra janela, após inserir ao lado esquerdo o nome da variável e ao lado direito o valor, basta clicar em `OK`, `Apply` e `OK`.
+       ![](https://raw.githubusercontent.com/kyaraaraujo/kyaraaraujo/images/variaveis-ambiente/passo3.png)
+
+As variáveis precisam ter o mesmo nome que foi informado no seu arquivo de configuração com o banco de dados, nesse caso
 o arquivo `application.properties` estaria escrito:
   ```properties
   spring.datasource.username = ${YOUR_VARIABLE_USERNAME}
   spring.datasource.password = ${YOUR_VARIABLE_PASSWORD}
-- ```
+```
 
 
 
