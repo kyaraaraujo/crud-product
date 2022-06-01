@@ -25,7 +25,7 @@
 
 | Status do Projeto  | 
 |        :---:       |  
-| Em desenvolvimento |   
+|      Concluído     |   
 
 |                       [Kyara Araújo](https://github.com/kyaraaraujo)                  |
 |                                        :---:                                          |
